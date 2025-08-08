@@ -82,7 +82,7 @@
 "diy\traptraj.o"
 "diy\vofa.o"
 "..\Middlewares\ST\ARM\DSP\Lib\arm_cortexM4lf_math.lib"
---library_type=microlib --strict --scatter "DIY\DIY.sct"
+--strict --scatter "DIY\DIY.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "DIY.map" -o DIY\DIY.axf
