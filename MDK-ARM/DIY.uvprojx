@@ -330,7 +330,7 @@
             <vShortWch>1</vShortWch>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_HAL_DRIVER,STM32G431xx,ARM_MATH_CM7, __TARGET_FPU_VFP, __FPU_PRESENT=1, __ARM_COMPAT_USAT</Define>
+              <Define>USE_HAL_DRIVER,STM32G431xx,ARM_MATH_CM7,</Define>
               <Undefine></Undefine>
               <IncludePath>../Core/Inc;../USB_Device/App;../USB_Device/Target;../Drivers/STM32G4xx_HAL_Driver/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Middlewares/ST/STM32_USB_Device_Library/Core/Inc;../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc;../Drivers/CMSIS/Device/ST/STM32G4xx/Include;../Drivers/CMSIS/Include;..\APP;..\BSP;..\MODULES;..\Middlewares\ST\ARM\DSP\Inc;..\APP\cmd_task;..\APP\motor_task;..\BSP\adc;..\BSP\can;..\BSP\dwt;..\BSP\flash;..\BSP\log;..\BSP\usart;..\MODULES\algorithm\crc;..\MODULES\can_comm;..\MODULES\controller;..\MODULES\daemon;..\MODULES\encoder\MT6816;..\MODULES\flash;..\MODULES\led;..\MODULES\motor;..\MODULES\vofa;..\MODULES\algorithm;..\MODULES\encoder;..\Middlewares\ST\ARM\DSP\Lib</IncludePath>
             </VariousControls>
@@ -932,7 +932,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>C:\Users\Admin\Desktop\FOC\DIY\G4-DIY\Middlewares\ST\ARM\DSP\Lib</GroupName>
+          <GroupName>Middlewares\ST\ARM\DSP\Lib</GroupName>
           <Files>
             <File>
               <FileName>arm_cortexM4lf_math.lib</FileName>

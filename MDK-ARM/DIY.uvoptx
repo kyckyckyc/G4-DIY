@@ -1237,7 +1237,7 @@
   </Group>
 
   <Group>
-    <GroupName>C:\Users\Admin\Desktop\FOC\DIY\G4-DIY\Middlewares\ST\ARM\DSP\Lib</GroupName>
+    <GroupName>Middlewares\ST\ARM\DSP\Lib</GroupName>
     <tvExp>0</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
